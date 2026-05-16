@@ -1,0 +1,133 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+:root {
+  /* =========================
+     FONT FAMILY
+  ========================= */
+
+  --font-family: "Inter", sans-serif;
+
+  /* =========================
+     FONT SIZE
+  ========================= */
+
+  --font-size-h1: 64px;
+  --font-size-h2: 36px;
+  --font-size-h3: 28px;
+  --font-size-h4: 20px;
+
+  --font-size-body-1: 18px;
+  --font-size-body-2: 16px;
+  --font-size-body-3: 14px;
+  --font-size-body-4: 12px;
+
+  --font-size-button: 16px;
+  --font-size-caption: 14px;
+
+  /* =========================
+     LINE HEIGHT
+  ========================= */
+
+  --line-height-h1: 76px;
+  --line-height-h2: 44px;
+  --line-height-h3: 36px;
+  --line-height-h4: 28px;
+
+  --line-height-body-1: 28px;
+  --line-height-body-2: 24px;
+  --line-height-body-3: 20px;
+  --line-height-body-4: 16px;
+
+  /* =========================
+     FONT WEIGHT
+  ========================= */
+
+  --font-weight-h1: 600;
+  --font-weight-h2: 600;
+  --font-weight-h3: 600;
+  --font-weight-h4: 600;
+
+  --font-weight-body: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* =========================
+     COLORS - NEUTRAL
+  ========================= */
+
+  --color-black: #263238;
+  --color-dark-grey: #4d4d4d;
+  --color-grey: #717171;
+  --color-light-grey: #89939e;
+  --color-grey-blue: #abbbed;
+  --color-silver: #f5f7fa;
+  --color-white: #ffffff;
+
+  /* =========================
+     COLORS - BRAND
+  ========================= */
+
+  --color-primary: #28cb8b;
+  --color-secondary: #263238;
+  --color-info: #2194f3;
+
+  /* =========================
+     COLORS - SHADES
+  ========================= */
+
+  --color-shade-1: #43a046;
+  --color-shade-2: #388e3b;
+  --color-shade-3: #237d31;
+  --color-shade-4: #1b5e1f;
+  --color-shade-5: #103e13;
+
+  /* =========================
+     COLORS - TINTS
+  ========================= */
+
+  --color-tint-1: #66bb69;
+  --color-tint-2: #81c784;
+  --color-tint-3: #a5d6a7;
+  --color-tint-4: #c8e6c9;
+  --color-tint-5: #e8f5e9;
+
+  /* =========================
+     COLORS - ACTIONS
+  ========================= */
+
+  --color-warning: #fbc02d;
+  --color-error: #e53835;
+  --color-success: #2e7d31;
+
+  /* =========================
+     BORDER RADIUS
+  ========================= */
+
+  --border-radius-sm: 6px;
+  --border-radius-md: 10px;
+  --border-radius-lg: 16px;
+
+  /* =========================
+     SHADOWS
+  ========================= */
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 6px 20px rgba(0, 0, 0, 0.08);
+
+  /* =========================
+     TRANSITIONS
+  ========================= */
+
+  --transition-default: all 0.2s ease-in-out;
+
+  /* =========================
+     LAYOUT
+  ========================= */
+
+  --container-width: 1200px;
+}
