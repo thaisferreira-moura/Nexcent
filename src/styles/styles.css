@@ -6,16 +6,11 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 22px 80px;
-    background-color: #fff;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
 }
 
 /* MENU */
 .navigation-header ul {
     display: flex;
-    align-items: center;
     gap: 48px;
     list-style: none;
 }
@@ -23,7 +18,6 @@ header {
 .navigation-header a {
     text-decoration: none;
     color: #18191F;
-    font-size: 16px;
     font-weight: 500;
     transition: 0.3s;
 }
@@ -32,37 +26,109 @@ header {
     color: #4CAF4F;
 }
 
+/* BOTÕES HEADER */
 .container-buttons {
     display: flex;
-    align-items: center;
     gap: 12px;
 }
 
-/* BOTÃO LOGIN */
-.btn-header.login {
+.btn {
     text-decoration: none;
-    color: #4CAF4F;
     font-weight: 600;
     padding: 10px 18px;
+    border-radius: 6px;
     transition: 0.3s;
 }
 
-.btn-header.login:hover {
+.btn.login {
+    color: #4CAF4F;
+}
+
+.btn.login:hover {
     opacity: 0.7;
 }
 
-/* BOTÃO SIGN UP */
-.btn-header.sign-up {
-    text-decoration: none;
+.btn.sign-up {
     background-color: #4CAF4F;
     color: white;
-    padding: 10px 18px;
+}
+
+.btn.sign-up:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(76, 175, 79, 0.2);
+}
+
+/* HERO */
+.hero-section {
+    padding: 80px;
+    background-color: #F5F7FA;
+}
+
+/* LADO A LADO */
+.hero-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 104px;
+    padding: 60px;
+}
+
+/* TEXTO */
+.hero-content h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #4D4D4D;
+    line-height: 76px;
+}
+
+.hero-content span {
+    color: #4CAF4F;
+}
+
+.hero-content p {
+    margin-top: 16px;
+    color: #717171;
+}
+
+/* BOTÃO HERO */
+.hero-button {
+    display: inline-block;
+    margin-top: 32px;
+    padding: 14px 32px;
+    background-color: #4CAF4F;
+    color: white;
+    text-decoration: none;
     border-radius: 6px;
     font-weight: 600;
     transition: 0.3s;
 }
 
-.btn-header.sign-up:hover {
+.hero-button:hover {
     transform: translateY(-2px);
     box-shadow: 0 10px 20px rgba(76, 175, 79, 0.2);
+}
+
+/* IMAGEM */
+.hero-image img {
+    width: 390px;
+}
+
+/* DOTS EMBAIXO */
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 40px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+}
+
+.dot.active {
+    background-color: #4CAF4F;
+    transform: scale(1.2);
 }

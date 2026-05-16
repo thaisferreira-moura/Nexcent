@@ -131,3 +131,25 @@
 
   --container-width: 1200px;
 }
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+/* bolinhas */
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* bolinha ativa */
+.dot.active {
+    background-color: #4CAF4F;
+    transform: scale(1.2);
+}
