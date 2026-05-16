@@ -1,0 +1,68 @@
+@import url(./global.css);
+
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 80px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* MENU */
+.navigation-header ul {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    list-style: none;
+}
+
+.navigation-header a {
+    text-decoration: none;
+    color: #18191F;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navigation-header a:hover {
+    color: #4CAF4F;
+}
+
+.container-buttons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* BOTÃO LOGIN */
+.btn-header.login {
+    text-decoration: none;
+    color: #4CAF4F;
+    font-weight: 600;
+    padding: 10px 18px;
+    transition: 0.3s;
+}
+
+.btn-header.login:hover {
+    opacity: 0.7;
+}
+
+/* BOTÃO SIGN UP */
+.btn-header.sign-up {
+    text-decoration: none;
+    background-color: #4CAF4F;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-header.sign-up:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(76, 175, 79, 0.2);
+}
