@@ -54,9 +54,10 @@ header {
 }
 
 .btn.sign-up:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(76, 175, 79, 0.2);
+    background-color: #388E3C;
+    transform: translateY(-3px);
 }
+
 
 /* HERO */
 .hero-section {
@@ -249,4 +250,60 @@ header {
 .community,
 .pixelgrade{
     background-color: #FFFFFF;
+}
+
+/* --------------the unseen-----------*/
+
+.pixelgrade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+
+    padding: 80px 144px;
+    background-color: #FFFFFF;
+}
+
+.pixelgrade-img img{
+    width: 442px;
+}
+
+.pixelgrade-content{
+    max-width: 600px;
+    text-align: left;
+}
+
+.pixelgrade-content h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #4D4D4D;
+    line-height: 44px;
+
+    margin-bottom: 16px;
+}
+
+.pixelgrade-content p{
+    font-size: 14px;
+    color: #717171;
+    line-height: 24px;
+
+    margin-bottom: 32px;
+}
+
+.pixelgrade-content button{
+    background-color: #4CAF4F;
+    color: white;
+
+    border: none;
+    border-radius: 4px;
+
+    padding: 14px 32px;
+
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.pixelgrade-content button:hover{
+    background-color: #388E3C;
+    transform: translateY(-3px);
 }
