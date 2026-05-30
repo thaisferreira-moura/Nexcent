@@ -132,3 +132,40 @@ header {
     background-color: #4CAF4F;
     transform: scale(1.2);
 }
+
+/*----------------our clients----------*/
+.clients{
+    text-align: center;
+    justify-content: space-between;
+    padding: 60px 120px;
+}
+
+.clients h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #18191F;
+    margin-bottom: 10px;
+}
+
+.clients p{
+    font-size: 16px;
+    color: #717171;
+    margin-bottom: 40px;
+}
+
+.clients-logos{
+    display: flex;
+    justify-content: center;
+}
+
+.clients-logos img{
+    margin-right: 144px;
+}
+
+.clients-logos img:last-child{
+    margin-right: 0;
+}
+.clients-logos img{
+    width: 48px;
+    height: auto;
+}
