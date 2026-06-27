@@ -446,3 +446,88 @@ header {
     background-color: #388E3C;
     transform: translateY(-3px) scale(1.05);
 }
+
+/* ===== TESLA ===== */
+
+.tesla{
+    width: 100%;
+    background-color: #F5F7FA;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 78px;
+
+    padding: 32px 144px;
+    box-sizing: border-box;
+}
+
+.tesla-img img{
+    width: 326px;
+    border-radius: 8px;
+}
+
+/* ===== CONTEÚDO ===== */
+
+.tesla-content{
+    max-width: 748px;
+    text-align: left;
+}
+
+.tesla-text{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #717171;
+    margin-bottom: 16px;
+}
+
+.tesla-content h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #4CAF4F;
+    margin-bottom: 8px;
+}
+
+.association{
+    font-size: 16px;
+    color: #89939E;
+    margin-bottom: 32px;
+}
+
+/* ===== PARTE INFERIOR ===== */
+
+.tesla-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.tesla-logos{
+    display: flex;
+    align-items: center;
+    gap: 41px;
+}
+
+.tesla-logos img{
+    width: 48px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.tesla-logos img:hover{
+    transform: scale(1.15);
+}
+
+.tesla-footer a{
+    color: #4CAF4F;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.tesla-footer a:hover{
+    color: #388E3C;
+}
