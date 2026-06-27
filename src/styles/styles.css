@@ -392,3 +392,57 @@ header {
     color: #717171;
     line-height: 24px;
 }
+/* ===== HOW TO DESIGN ===== */
+
+.design{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 80px 144px;
+    background-color: #FFFFFF;
+}
+
+.design-img{
+    margin-left: 144px;
+}
+
+.design-img img{
+    width: 442px;
+}
+
+.design-content{
+    max-width: 661px;
+    text-align: left;
+    margin-right: 144px;
+}
+
+.design-content h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #4D4D4D;
+    margin-bottom: 16px;
+}
+
+.design-content p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #717171;
+    margin-bottom: 32px;
+}
+
+.design-content button{
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 14px 32px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.design-content button:hover{
+    background-color: #388E3C;
+    transform: translateY(-3px) scale(1.05);
+}
