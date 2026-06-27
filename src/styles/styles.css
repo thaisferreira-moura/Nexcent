@@ -531,3 +531,42 @@ header {
 .tesla-footer a:hover{
     color: #388E3C;
 }
+/* ===== MARKETING ===== */
+
+.marketing{
+    background: #FFFFFF;
+    padding: 48px 144px 94px;
+    text-align: center;
+}
+
+.marketing h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+    margin-bottom: 16px;
+}
+
+.marketing-subtitle{
+    max-width: 628px;
+    margin: 0 auto 40px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #717171;
+}
+
+.marketing-cards{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.marketing-cards img{
+    width: 368px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform .3s ease;
+}
+
+.marketing-cards img:hover{
+    transform: translateY(-10px);
+}
