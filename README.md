@@ -43,6 +43,8 @@ O projeto foi desenvolvido com foco na prática dos fundamentos de Front-End e n
 ## 🎨 Layout
 
 ![NextCent](https://github.com/thaisferreira-moura/Nexcent/blob/main/nexcent%20miniatura.png)
+![NextCent](https://github.com/thaisferreira-moura/Nexcent/blob/main/nexcent%20miniatura%202.png)
+
 
 ---
 
