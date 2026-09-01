@@ -47,6 +47,7 @@ O projeto foi desenvolvido com foco na prática dos fundamentos de Front-End e n
 ![NextCent](https://github.com/thaisferreira-moura/Nexcent/blob/main/nexcent%20miniatura%203.png)
 ![NextCent](https://github.com/thaisferreira-moura/Nexcent/blob/main/nexcent%20miniautra%204.png)
 ![NextCent](https://github.com/thaisferreira-moura/Nexcent/blob/main/nexcent%20miniatura%205.png)
+![NextCent](https://github.com/thaisferreira-moura/Nexcent/blob/main/nexcent%20miniaura%206.png)
 
 
 
